@@ -1,2 +1,3 @@
-.env
-UltraHooks
+!UltraHooks
+.idea/
+!/.env
