@@ -40,6 +40,7 @@ func main() {
 	go server()
 
 	session = dg
+	dg.UpdateStatus(0, "https://ultrahooks.maia.codes")
 
 	log.Info("Bot is now running.  Press CTRL-C to exit.")
 
